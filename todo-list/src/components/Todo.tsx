@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import uuidv4 from 'react-uuid';
+export interface Props{
+  Header:string
+}
 
-export default function Todo() {
+export default function Todo(props:Props) {
   const [inputField, setInputField] = useState<string>('');
   const [tasks, setTasks] = useState<Task[]>([]);
 
@@ -52,6 +55,7 @@ export default function Todo() {
 
   return (
     <div>
+      <h1>{props.Header}</h1>
       <ul id='list'>
         {tasks.map((task) => (
           <li key={task.id}>
