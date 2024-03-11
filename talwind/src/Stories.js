@@ -7,11 +7,11 @@ export default function Stories() {
         Tailwind Stories
       </p>
 
-      <ul className="flex space-x-6">
-        <li className="flex flex-col items-center space-y-1">
+      <ul className="flex space-x-6 ">
+        <li className="flex flex-col items-center space-y-1 relative">
           <div className="bg-gradient-to-tr from-yellow-200 to-fuchsia-600 p-1 rounded-full">
-            <a href="#" className="block bg-white p-1 rounded-full hover:-rotate-6">
-              <div className="h-24 w-24 rounded-full overflow-hidden">
+            <a href="#" className="block bg-white p-1 rounded-full hover:-rotate-6 transform transition">
+              <div className="h-24 w-24 rounded-full overflow-hidden ">
                 <img
                   className="h-full w-full object-cover"
                   src="https://source.unsplash.com/random/200x200" 
