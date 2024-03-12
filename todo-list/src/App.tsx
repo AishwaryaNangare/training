@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Todo Header='TodoList'/>
-      <CalculatorCli/>
+      {/* <CalculatorCli/> */}
     </div>
   );
 }
