@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer bg-[#f2f2f2] p-4 md:p-12 flex flex-wrap justify-center gap-8 md:justify-between">
+    <div className="footer bg-[#f2f2f2] p-4 md:p-12 flex flex-wrap justify-center gap-8 md:justify-between mt-4">
       <div className="footer-section">
         <h5 className="text-lg font-normal mb-2">What's New</h5>
         <p className="text-xs my-2 my-1">Microsoft 365</p>

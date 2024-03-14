@@ -7,6 +7,7 @@ import Slider from './components/Slider';
 
 
 function App() {
+ 
 
   return (
   <div className='container mx-auto'>
@@ -14,6 +15,7 @@ function App() {
   <Slider/>
   <Promo/>
   <Footer/>
+  
   </div>
   );
 }

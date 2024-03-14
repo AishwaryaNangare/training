@@ -2,19 +2,19 @@ import React from 'react'
 
 function Slider() {
   return (
-    <div className="container mx-auto">
-<div className='slider flex flex-col md:flex-row justify-center items-center bg-[#f2f2f2]'>
-    <div className="left">
-        <div className="h-1/2 md:h-full">
-            <img className=" h-auto md:h-full object-cover" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1920x600" alt="surface-pro" />
+<div className='slider flex flex-col md:flex-row h-'>
+    <div className="w-full md:w-1/2 md:h-full overflow-hidden">
+        <div className="bg-[url('../public/Highlight-Surface.avif')] bg-cover h-[430px] bg-no-repeat " >
         </div>
     </div>
-    <div className="right flex flex-col justify-center items-center  py-20">
-        <h1 className='md:text-2xl text-4xl font-medium'>Surface Pro 9</h1>
-        <p className='w-3/4 mr-15 text-center'>Tablet versatility and laptop power — all in one ultra-portable device</p>
-        <button className='text-white bg-blue-900 p-4 font-bold my-4'>Learn More</button>
+    <div className="right w-full leading-6 md:w-1/2 md:text-left md:pl-8 flex flex-col justify-center bg-[#f2f2f2]">
+        <h1 className='text-4xl font-bold mb-5'>Surface Pro 9</h1>
+        <p>Tablet versatility and laptop power — all in one ultra-portable<br/> device</p>
+        <button class="bg-[rgba(0,103,184,1)] w-[120px] hover:bg-blue-900 text-white font-bold mt-5 py-2 px-4 rounded-sm text-center">
+ Learn more
+</button>
+
     </div>
-</div>
 </div>
 
 
